@@ -197,3 +197,20 @@ console.log(hello());
 /************************************************************************************
  Generatros
  ***********************************************************************************/
+function* helloWorld()
+{
+  if (true){
+    yield 'Hello, ';
+  }
+
+  if (true){
+    yield 'World';
+  }
+
+  return false;
+}
+
+const myGenerator = helloWorld();
+console.log(myGenerator.next());
+console.log(myGenerator.next());
+console.log(myGenerator.next());
