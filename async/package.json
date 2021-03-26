@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "callback": "node src/callback/index.js",
-    "callback:rickandmorty": "node src/callback/rickandmorty.js"
+    "callback:rickandmorty": "node src/callback/rickandmorty.js",
+    "promise": "node src/promise/index.js",
+    "promise:rickandmorty": "node src/promise/rickandmorty.js"
   },
   "author": "Daniel Morales",
   "license": "MIT",
