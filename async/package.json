@@ -1,0 +1,15 @@
+{
+  "name": "ecmascript-workshop-async",
+  "version": "1.0.0",
+  "description": "Examples from my ecmascript workshop",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:rickandmorty": "node src/callback/rickandmorty.js"
+  },
+  "author": "Daniel Morales",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
